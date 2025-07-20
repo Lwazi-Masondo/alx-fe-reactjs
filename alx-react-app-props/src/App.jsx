@@ -10,18 +10,23 @@ import UserContext from "./components/UserContext";
 import ProfilePage from "./components/ProfilePage";
 
 function App() {
-  const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
+  const userData = {
+    name: "Jane Doe",
+    email: "jane.doe@example.com",
+    age: "25",
+    bio: "Loves hiking and photography",
+  };
   return (
     <div>
       <WelcomeMessage />
       <Header />
       <MainContent />
-      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <Counter />
-      <Footer />
       <UserContext.Provider value={userData}>
         <ProfilePage />
+        <UserProfile />
       </UserContext.Provider>
+      <Footer />
     </div>
   );
 }
