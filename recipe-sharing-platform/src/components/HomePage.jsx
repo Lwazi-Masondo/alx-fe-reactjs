@@ -20,12 +20,12 @@ function HomePage() {
           {recipes.map((recipe) => (
             <li
               key={recipe.id}
-              className="text-center w-60 h-auto py-10 px-5 drop-shadow-2xl bg-gray-100 "
+              className="text-center w-60 h-auto py-10 px-5 drop-shadow-2xl bg-gray-100 rounded"
             >
               <img
                 src={recipe.image}
                 alt={recipe.title}
-                className="w-40 h-40 flex mx-auto hover:contrast-50 cursor-pointer "
+                className="w-40 h-40 flex mx-auto hover:contrast-50 cursor-pointer rounded"
               />
               <h3 className="mt-5 font-bold">{recipe.title}</h3>
               <p className="mt-5 text-sm">{recipe.summary}</p>
