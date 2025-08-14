@@ -16,7 +16,7 @@ function HomePage() {
       <h1 className="text-center mt-2 font-bold">RECIPE SHARING</h1>
       <div className=" mt-10 md:mt-20">
         <h2 className="text-center font-bold my-10">Recipes</h2>
-        <ul className="grid grid-cols-1  md:grid-cols-2 gap-5  mx-10 justify-items-center">
+        <ul className="grid grid-cols-1  md:grid-cols-3 gap-5  mx-10 justify-items-center">
           {recipes.map((recipe) => (
             <li
               key={recipe.id}
