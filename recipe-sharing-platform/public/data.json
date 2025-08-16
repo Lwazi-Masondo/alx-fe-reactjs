@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "/public/images/Pasta.png",
+    "ingrediants": [
+      "1 Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor."
+    ],
+    "instructions": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eligendi.",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur mollitia modi blanditiis adipisci praesentium iste!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis, sunt iure minima vel exercitationem incidunt magnam ipsum ab sapiente?",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut natus ipsa voluptatum in molestias. Laboriosam impedit quam rerum et nostrum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eligendi?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit cum rerum ipsa odio delectus, voluptates corrupti ipsam quasi corporis ut aliquam ipsum aut. Sunt!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda error magnam animi ipsa deleniti expedita rerum?"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "/public/images/Chicken-tikka.png",
+    "ingrediants": [
+      "2 Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor."
+    ],
+    "instructions": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eligendi.",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur mollitia modi blanditiis adipisci praesentium iste!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis, sunt iure minima vel exercitationem incidunt magnam ipsum ab sapiente?",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut natus ipsa voluptatum in molestias. Laboriosam impedit quam rerum et nostrum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eligendi?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit cum rerum ipsa odio delectus, voluptates corrupti ipsam quasi corporis ut aliquam ipsum aut. Sunt!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda error magnam animi ipsa deleniti expedita rerum?"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Beef stir-fry",
+    "summary": "This stir fry is packed with strips of beef steak, veggies, and saucy flavors for a weeknight dinner warrior that checks all the boxes.",
+    "image": "/public/images/Beef-stirfry.png",
+    "ingrediants": [
+      "3 Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor."
+    ],
+    "instructions": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eligendi.",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur mollitia modi blanditiis adipisci praesentium iste!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis, sunt iure minima vel exercitationem incidunt magnam ipsum ab sapiente?",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut natus ipsa voluptatum in molestias. Laboriosam impedit quam rerum et nostrum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eligendi?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit cum rerum ipsa odio delectus, voluptates corrupti ipsam quasi corporis ut aliquam ipsum aut. Sunt!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda error magnam animi ipsa deleniti expedita rerum?"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Lemon butter fish",
+    "summary": "Delicious and flaky pan-seared lemon butter fish cooked in a simple lemon butter sauce!",
+    "image": "/public/images/Lemon-butter-fish.png",
+    "ingrediants": [
+      "4 Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor."
+    ],
+    "instructions": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eligendi.",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur mollitia modi blanditiis adipisci praesentium iste!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis, sunt iure minima vel exercitationem incidunt magnam ipsum ab sapiente?",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut natus ipsa voluptatum in molestias. Laboriosam impedit quam rerum et nostrum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eligendi?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit cum rerum ipsa odio delectus, voluptates corrupti ipsam quasi corporis ut aliquam ipsum aut. Sunt!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda error magnam animi ipsa deleniti expedita rerum?"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Lemon butter fish",
+    "summary": "Delicious and flaky pan-seared lemon butter fish cooked in a simple lemon butter sauce!",
+    "image": "/public/images/Lemon-butter-fish.png",
+    "ingrediants": [
+      "5 Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor."
+    ],
+    "instructions": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eligendi.",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur mollitia modi blanditiis adipisci praesentium iste!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis, sunt iure minima vel exercitationem incidunt magnam ipsum ab sapiente?",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut natus ipsa voluptatum in molestias. Laboriosam impedit quam rerum et nostrum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eligendi?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit cum rerum ipsa odio delectus, voluptates corrupti ipsam quasi corporis ut aliquam ipsum aut. Sunt!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda error magnam animi ipsa deleniti expedita rerum?"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Beef stir-fry",
+    "summary": "This stir fry is packed with strips of beef steak, veggies, and saucy flavors for a weeknight dinner warrior that checks all the boxes.",
+    "image": "/public/images/Beef-stirfry.png",
+    "ingrediants": [
+      "6. Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor.",
+      "Lorem ipsum dolor sit amet.",
+      "Lorem, ipsum.",
+      "Lorem ipsum dolor sit.",
+      "Lorem, ipsum dolor."
+    ],
+    "instructions": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, eligendi.",
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur mollitia modi blanditiis adipisci praesentium iste!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta reiciendis, sunt iure minima vel exercitationem incidunt magnam ipsum ab sapiente?",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut natus ipsa voluptatum in molestias. Laboriosam impedit quam rerum et nostrum.",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, eligendi?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, impedit cum rerum ipsa odio delectus, voluptates corrupti ipsam quasi corporis ut aliquam ipsum aut. Sunt!",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda error magnam animi ipsa deleniti expedita rerum?"
+    ]
+  }
+]
