@@ -29,9 +29,9 @@ function RecipeDetail() {
 
       <img src={recipe.image} alt={recipe.title} />
 
-      <h3>Ingrediants</h3>
+      <h3>ingredients</h3>
       <ol>
-        {recipe.ingrediants.map((ingrediant, index) => (
+        {recipe.ingredients.map((ingrediant, index) => (
           <li key={index}>{ingrediant}</li>
         ))}
       </ol>

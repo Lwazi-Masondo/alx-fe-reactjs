@@ -4,7 +4,7 @@
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
     "image": "/public/images/Pasta.png",
-    "ingrediants": [
+    "ingredients": [
       "1 Lorem ipsum dolor sit amet.",
       "Lorem, ipsum.",
       "Lorem ipsum dolor sit.",
@@ -34,7 +34,7 @@
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
     "image": "/public/images/Chicken-tikka.png",
-    "ingrediants": [
+    "ingredients": [
       "2 Lorem ipsum dolor sit amet.",
       "Lorem, ipsum.",
       "Lorem ipsum dolor sit.",
@@ -64,7 +64,7 @@
     "title": "Beef stir-fry",
     "summary": "This stir fry is packed with strips of beef steak, veggies, and saucy flavors for a weeknight dinner warrior that checks all the boxes.",
     "image": "/public/images/Beef-stirfry.png",
-    "ingrediants": [
+    "ingredients": [
       "3 Lorem ipsum dolor sit amet.",
       "Lorem, ipsum.",
       "Lorem ipsum dolor sit.",
@@ -94,7 +94,7 @@
     "title": "Lemon butter fish",
     "summary": "Delicious and flaky pan-seared lemon butter fish cooked in a simple lemon butter sauce!",
     "image": "/public/images/Lemon-butter-fish.png",
-    "ingrediants": [
+    "ingredients": [
       "4 Lorem ipsum dolor sit amet.",
       "Lorem, ipsum.",
       "Lorem ipsum dolor sit.",
@@ -124,7 +124,7 @@
     "title": "Lemon butter fish",
     "summary": "Delicious and flaky pan-seared lemon butter fish cooked in a simple lemon butter sauce!",
     "image": "/public/images/Lemon-butter-fish.png",
-    "ingrediants": [
+    "ingredients": [
       "5 Lorem ipsum dolor sit amet.",
       "Lorem, ipsum.",
       "Lorem ipsum dolor sit.",
@@ -154,7 +154,7 @@
     "title": "Beef stir-fry",
     "summary": "This stir fry is packed with strips of beef steak, veggies, and saucy flavors for a weeknight dinner warrior that checks all the boxes.",
     "image": "/public/images/Beef-stirfry.png",
-    "ingrediants": [
+    "ingredients": [
       "6. Lorem ipsum dolor sit amet.",
       "Lorem, ipsum.",
       "Lorem ipsum dolor sit.",
