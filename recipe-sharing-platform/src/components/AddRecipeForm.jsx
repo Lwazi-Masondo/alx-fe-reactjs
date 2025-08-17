@@ -4,7 +4,7 @@ function AddRecipeForm() {
   //State for form inputs
   const [title, setTitle] = useState("");
   const [ingredients, setIngredients] = useState("");
-  const [instructions, setInstructions] = useState("");
+  const [steps, setsteps] = useState("");
 
   //State for errors
   const [errors, setErrors] = useState({});
@@ -22,8 +22,8 @@ function AddRecipeForm() {
     if (!ingredients.trim()) {
       newErrors.ingredients = "Please enter at least one ingredient.";
     }
-    if (!instructions.trim()) {
-      newErrors.instructions = "Please enter preparations.";
+    if (!steps.trim()) {
+      newErrors.steps = "Please enter preparations.";
     }
 
     setErrors(newErrors);
@@ -33,7 +33,7 @@ function AddRecipeForm() {
       const newRecipe = {
         title,
         ingredients: ingredients.split("\n"), //split textarea into list
-        instructions: instructions.split("\n"),
+        steps: steps.split("\n"),
       };
 
       console.log("✅ Recipe submitted:", newRecipe);
@@ -41,7 +41,7 @@ function AddRecipeForm() {
       // Clear form
       setTitle("");
       setIngredients("");
-      setinstructions("");
+      setsteps("");
       setErrors({});
     }
   }
@@ -69,18 +69,16 @@ function AddRecipeForm() {
       {errors.ingredients && (
         <p className="text-red-500 text-sm">{errors.ingredients}</p>
       )}
-      <label>Preparation instructions</label>
+      <label>Preparation steps</label>
       <textarea
-        value={instructions}
+        value={steps}
         onChange={(e) => {
-          setInstructions(e.target.value);
+          setsteps(e.target.value);
         }}
-        placeholder="Enter Instructions.."
+        placeholder="Enter steps.."
         className=" bg-slate-50 px-2 py-2 h-40 mb-10 border-slate-100 shadow-inner"
       ></textarea>
-      {errors.instructions && (
-        <p className="text-red-500 text-sm">{errors.instructions}</p>
-      )}
+      {errors.steps && <p className="text-red-500 text-sm">{errors.steps}</p>}
       <button
         type="submit"
         className="bg-amber-300 w-32 m-auto rounded py-2 px-2 font-bold drop-shadow-2xl"
