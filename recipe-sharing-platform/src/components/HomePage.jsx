@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import AddRecipeForm from "./AddRecipeForm";
 
 function HomePage() {
   const [recipes, setRecipes] = useState([]);
@@ -14,7 +15,8 @@ function HomePage() {
 
   return (
     <div>
-      <h1 className="text-center mt-2 font-bold">RECIPE SHARING</h1>
+      <h1 className="text-center mt-2 font-bold text-2xl">RECIPE SHARING</h1>
+      <AddRecipeForm />
       <div className=" mt-10 md:mt-20">
         <h2 className="text-center font-bold my-10">Recipes</h2>
         <ul className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5  mx-10 justify-items-center">
