@@ -13,23 +13,23 @@ function AddRecipeForm() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    //Validation
-    const validation = {};
+    //validate
+    const validate = {};
 
     if (!title.trim()) {
-      validation.title = "Recipe title is required.";
+      validate.title = "Recipe title is required.";
     }
     if (!ingredients.trim()) {
-      validation.ingredients = "Please enter at least two ingredient.";
+      validate.ingredients = "Please enter at least two ingredient.";
     }
     if (!steps.trim()) {
-      validation.steps = "Please enter preparations.";
+      validate.steps = "Please enter preparations.";
     }
 
-    setErrors(validation);
+    setErrors(validate);
 
     //If no errors, submit form
-    if (Object.keys(validation).length === 0) {
+    if (Object.keys(validate).length === 0) {
       const newRecipe = {
         title,
         ingredients: ingredients.split("\n"), //split textarea into list
