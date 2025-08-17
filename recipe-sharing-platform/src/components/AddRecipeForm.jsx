@@ -47,7 +47,10 @@ function AddRecipeForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="my-20 mx-20 flex flex-col gap-5">
+    <form
+      onSubmit={handleSubmit}
+      className="my-20 mx-20 flex flex-col gap-5 items-center md:items-start"
+    >
       <h2 className="text-center font-bold text-xl mb-10">Add New Recipe</h2>
       <label>Recipe Title</label>
       <input
@@ -55,7 +58,7 @@ function AddRecipeForm() {
         value={title}
         placeholder="Enter recipe title.."
         onChange={(e) => setTitle(e.target.value)}
-        className="h-14 bg-slate-50 px-2 border-slate-100 shadow-inner"
+        className="h-14 bg-slate-50 px-2 border-slate-100 shadow-inner md:w-1/2 w-full"
       />
       {errors.title && <p className="text-red-500 text-sm">{errors.title}</p>}
 
@@ -64,7 +67,7 @@ function AddRecipeForm() {
         value={ingredients}
         onChange={(e) => setIngredients(e.target.value)}
         placeholder="Enter ingredients.."
-        className=" bg-slate-50 px-2 h-40 py-2 border-slate-100 shadow-inner"
+        className=" bg-slate-50 px-2 h-40 py-2 border-slate-100 shadow-inner md:w-1/2 w-full"
       ></textarea>
       {errors.ingredients && (
         <p className="text-red-500 text-sm">{errors.ingredients}</p>
@@ -76,12 +79,12 @@ function AddRecipeForm() {
           setsteps(e.target.value);
         }}
         placeholder="Enter steps.."
-        className=" bg-slate-50 px-2 py-2 h-40 mb-10 border-slate-100 shadow-inner"
+        className=" bg-slate-50 px-2 py-2 h-40 mb-10 border-slate-100 shadow-inner md:w-1/2 w-full"
       ></textarea>
       {errors.steps && <p className="text-red-500 text-sm">{errors.steps}</p>}
       <button
         type="submit"
-        className="bg-amber-300 w-32 m-auto rounded py-2 px-2 font-bold drop-shadow-2xl"
+        className="bg-amber-300 w-32 m-auto rounded py-2 px-2 font-bold drop-shadow-2xl flex md:m-0"
       >
         Submit Recipe
       </button>
