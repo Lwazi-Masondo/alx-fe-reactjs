@@ -1,6 +1,6 @@
 import { useQuery } from "react-query";
 
-const fetchData = async () => {
+const fetchPosts = async () => {
   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
   if (!response.ok) throw new Error("Network response was not ok");
   return response.json();
@@ -8,7 +8,7 @@ const fetchData = async () => {
 
 const PostsComponent = () => {
   //Use the useQuery hook to handle data fetching and caching
-  const { data, isError, isLoading } = useQuery("posts", fetchData);
+  const { data, isError, isLoading } = useQuery("posts", fetchPosts);
 
   //Handle loading state
   if (isLoading) return <div className="text-green-500 ">Loading...</div>;
