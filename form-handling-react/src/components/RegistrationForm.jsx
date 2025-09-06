@@ -37,11 +37,19 @@ function RegistrationForm() {
     return Object.keys(newErrors).length === 0;
   };
 
+  const clear = () => {
+    setUsername("");
+    setEmail("");
+    setPassword("");
+    setErrors({});
+  };
+
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col justify-between items-center mt-20 gap-10"
+      className="flex flex-col justify-between items-center mt-20 gap-10 border-2 border-blue-400 rounded mx-80 py-10"
     >
+      <h1 className="text-blue-500 text-xl">Controlled Components Setup</h1>
       <input
         type="text"
         name="username"
@@ -77,6 +85,13 @@ function RegistrationForm() {
       <div className="flex flex-row gap-2">
         <button type="submit" className="bg-gray-400 p-2 rounded">
           Submit
+        </button>
+        <button
+          type="button"
+          onClick={clear}
+          className="bg-gray-400 p-2 rounded"
+        >
+          Clear
         </button>
       </div>
     </form>
