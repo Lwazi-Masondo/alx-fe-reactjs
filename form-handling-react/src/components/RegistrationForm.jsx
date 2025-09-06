@@ -4,39 +4,22 @@ function RegistrationForm() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [errors, setErrors] = useState({});
 
   const handleSubmit = (event) => {
     event.preventDefault();
     setUsername("");
     setEmail("");
     setPassword("");
-    if (validate()) {
-      console.log("Form Submitted ", { username, email, password });
-    } else {
-      console.log("Form Errors ", errors);
+    console.log("Form Submitted:", { username, email, password });
+    if (!username) {
+      console.log("Enter username!");
     }
-  };
-
-  const validate = () => {
-    let newErrors = {};
-
-    if (!username.trim()) {
-      newErrors.username = "Username is required";
+    if (!email) {
+      console.log("Enter email!");
     }
-
-    if (!email.trim()) {
-      newErrors.email = "Email is required";
+    if (!password) {
+      console.log("Enter password!");
     }
-
-    if (!password.trim()) {
-      newErrors.password = "Password is required";
-    } else if (password.length < 8) {
-      newErrors.password = "Password must be at least 8 characters";
-    }
-
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0; //  valid if no errors
   };
 
   return (
@@ -52,9 +35,7 @@ function RegistrationForm() {
         onChange={(e) => setUsername(e.target.value)}
         className="border-2 p-2 w-2xl rounded"
       />
-      {errors.username && (
-        <p className="text-red-500 text-sm">{errors.username}</p>
-      )}
+
       <input
         type="email"
         name="email"
@@ -64,7 +45,7 @@ function RegistrationForm() {
         onChange={(e) => setEmail(e.target.value)}
         className="border-2 p-2 w-2xl rounded"
       />
-      {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+
       <input
         type="password"
         name="password"
@@ -73,9 +54,7 @@ function RegistrationForm() {
         onChange={(e) => setPassword(e.target.value)}
         className="border-2 p-2 w-2xl rounded"
       />
-      {errors.password && (
-        <p className="text-red-500 text-sm">{errors.password}</p>
-      )}
+
       <div className="flex flex-row gap-2">
         <button type="submit" className="bg-gray-400 p-2 rounded">
           Submit
