@@ -1,7 +1,15 @@
+import { Outlet, Link } from "react-router-dom";
 function Profile() {
   return (
     <div>
-      <h1>Profile</h1>
+      <nav className="flex gap 4">
+        <Link to={"/"}>Home</Link>
+        <Link to={"profiledetails"}>Profile Details</Link>
+        <Link to={"profilesettings"}>Profile Settings</Link>
+      </nav>
+      <div className="mt-6">
+        <Outlet />
+      </div>
     </div>
   );
 }
